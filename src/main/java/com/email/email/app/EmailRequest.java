@@ -3,7 +3,7 @@ package com.email.email.app;
 import lombok.Data;
 
 @Data
-public class EmailReq {
-    private String emailBody;
+public class EmailRequest {
+    private String emailContent;
     private String tone;
 }
